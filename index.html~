@@ -8,7 +8,6 @@
     <meta name="author" content="">
 
 	<!-- Le styles -->
-    <link rel="stylesheet" title="bootstrap" href="css/jquery.socialist.css">
     <link rel="stylesheet" title="bootstrap" href="css/bootstrap.css">
 
     <link rel="alternate stylesheet" title="bootstrap-1" href="css/bootstrap-1.css">
@@ -17,7 +16,7 @@
     <link rel="alternate stylesheet" title="bootstrap-4" href="css/bootstrap-4.css">
     <link rel="alternate stylesheet" title="bootstrap-5" href="css/bootstrap-5.css">
     <link rel="alternate stylesheet" title="bootstrap-6" href="css/bootstrap-6.css">
-    <link rel="alternate stylesheet" title="bootstrap-7" href="css/bootstrap-7.css">    
+    <link rel="alternate stylesheet" title="bootstrap-7" href="css/bootstrap-7.css">
 	
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
     
@@ -482,11 +481,11 @@ O Sistemas está sendo desenvolvido com a linguagem Java tecnologia EJB3, com os
         		</div><!--/row-->
                 <div class="row">
                     <div class="span6">
-                        <div id="divContentFeedsBlogs" class="breadcrumb">
-                            <legend><h2>Grupo Haw</h2></legend>
+                        <div id="portifolio" class="breadcrumb">
+                            <legend><h2>Portfolios</h2></legend>
                             <div class="row">
                                 <div class="span6">
-                                    <div id="contentFeedsBlogs"></div>
+                                	
                                 </div><!--/span6-->
                             </div><!--/row-->
 
@@ -496,24 +495,6 @@ O Sistemas está sendo desenvolvido com a linguagem Java tecnologia EJB3, com os
                         </div><!--/breadcrumb-->
             		</div><!--/span6-->
         		</div><!--/row-->
-            </div><!--/span6-->
-		</div><!--/row-->
-       <div class="row">
-           <div class="span6">
-               <div id="divContentFeedsSocial" class="breadcrumb">
-                   <legend><h2>Social</h2></legend>
-                   <div class="row">
-                       <div class="span5">
-                           <div id="contentFeedsSocial"></div>
-                       </div><!--/span6-->
-                   </div><!--/row-->
-
-                   <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
-                   <div class="clearfix"></div>
-                   
-               </div><!--/breadcrumb-->
-   		</div><!--/span6-->
-	</div><!--/row-->
             </div><!--/span6-->
 		</div><!--/row-->
     </div> <!-- /container -->
@@ -535,35 +516,12 @@ O Sistemas está sendo desenvolvido com a linguagem Java tecnologia EJB3, com os
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
     <script src="js/application.js"></script>
-    <script src="js/jquery.socialist.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
     
     <!-- Ativando o jQuery lightBox plugin -->
     <script type="text/javascript">
     $(function() {
-        //$('#gallery a').lightBox();
-        
-		$('#contentFeedsBlogs').socialist({
-		    networks: [
-		        {name:'rss',id:' http://grupohaw.com.br/feed'}
-		       ],
-		    isotope:true,
-		    random:false,
-		    maxResults:4,
-		    fields:['source','heading','text','date','image','followers','likes']
-		});
-		$('#contentFeedsSocial').socialist({
-        networks: [
-            /*{name:'linkedin',id:'buddy-media'},
-            {name:'facebook',id:'in1dotcom'},
-            {name:'pinterest',id:'potterybarn'},*/
-            {name:'twitter',id:'gabrielrubenss'}
-           ],
-        isotope:false,
-        random:false,
-        maxResults:2,
-        fields:['source','heading','text','date','image','followers','likes']
-    });
+        $('#gallery a').lightBox();
     });
     </script>
     

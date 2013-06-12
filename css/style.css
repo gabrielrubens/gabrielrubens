@@ -75,7 +75,6 @@
 		/*
 			The pseudo element below applies a noise pattern to the background image. It's
 			meant to help mask blurriness, but you can remove it if you don't like it.
-		*/
 
 		body:after
 		{
@@ -88,6 +87,7 @@
 			background: url('images/overlay.png');
 			z-index: -1;
 		}
+		*/
 	
 	body, input, textarea
 	{
@@ -522,7 +522,6 @@
 				/*
 					The pseudo element below applies a noise pattern to the "me" image. It's
 					meant to help mask blurriness, but you can remove it if you don't like it.
-				*/
 			
 				#me .pic:before
 				{
@@ -535,6 +534,7 @@
 					height: 100%;
 					z-index: 1;
 				}
+				*/
 
 /*********************************************************************************/
 /* Footer                                                                        */

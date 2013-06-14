@@ -450,7 +450,7 @@
 	*/
 	
 	.icon-album:before			{ content: '\E002'; }
-	.icon-book:before			{ content: '\E020'; }
+	.icon-pc:before				{ content: '\E09e'; }
 	.icon-comment:before		{ content: '\E034'; }
 	.icon-file:before			{ content: '\E048'; }
 	.icon-folder:before			{ content: '\E04c'; }
@@ -468,6 +468,9 @@
 	.icon-linkedin:before		{ content: '\E083'; }
 	.icon-tumblr:before			{ content: '\E03f'; }
 	.icon-twitter:before		{ content: '\E12f'; }
+	.icon-github:before			{ content: '\E057'; }
+	.icon-wordpress:before		{ content: '\E171'; }
+	
 		
 /*********************************************************************************/
 /* Nav                                                                           */

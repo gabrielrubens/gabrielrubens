@@ -451,6 +451,7 @@
 	
 	.icon-album:before			{ content: '\E002'; }
 	.icon-pc:before				{ content: '\E09e'; }
+	.icon-book:before			{ content: '\E020'; }
 	.icon-comment:before		{ content: '\E034'; }
 	.icon-file:before			{ content: '\E048'; }
 	.icon-folder:before			{ content: '\E04c'; }
